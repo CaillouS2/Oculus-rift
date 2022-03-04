@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html language ="pt-br"> 
+<head>    
+    <meta charset="UTF-8">
+    <title>Oculus Rift </title>
+    <link rel="Stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="shortcut icon" href="_imagens/fav.png">
+    <script src="_javascript/funcoes.js"></script>
+</head>
+<body>
+<div id="interface2">
+
+<header id="cabecalho">
+    <hggroup>
+    <h1>Oculus Rift</h1>
+    <h2>Um outro mundo diante de seus olhos</h2>
+    </hggroup>
+    <img src="_imagens/glass-oculos-preto-peq.png" style=" position: relative; left: 850px; top: -10px; height:84px; width: 84px; background-color: rgb(231, 230, 230); border-radius: 80px; display:block; box-shadow: 0px 0px 30px #4AD295; border: 5px solid #4AD295;" id="img" onmousemove="mt()" onmouseleave="preto()">
+<Nav id="menu">
+    <h1>Menu Principal</h1>
+<ul>
+    <li onmouseover="mudaFoto('_imagens/homes.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><b><a href="index.html"style="text-decoration: none; color:rgb(255, 255, 255);">Menu Principal</a></b></li>
+    <li onmouseover="mudaFoto('_imagens/specs.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><b><a href="specs.html"style="text-decoration: none; color:rgb(255, 255, 255);">Especificações</a></b></li>
+    <li onmouseover="mudaFoto('_imagens/icone-contato.png')" onmouseleave="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><b><a href="fale-conosco.html"style="text-decoration: none; color:rgb(255, 255, 255);">Fale conosco</a></b></li>
+</ul>
+</Nav>
+</header>
+<div id="H">
+    <h1 style="top: -40px; left:20px;">Cadastre-se e Fala conosco!</h1>
+    <h2 style="top: -46px; left:20px;">Para dúvidas, sugestões, basta preencher o formulário e contato abaixo e nos enviar! </h2>
+</div>
+
+
+<div id="imgformu">
+    <img src="_imagens/img-form.png" style="border: 4.5px solid #4AD295; height: 290px; width: 320px; border-radius: 80px; box-shadow: 0px 0px 30px #4AD295; top: -120px; display: block;">
+</div>
+
+<form>
+<div id="Form">
+
+    <div id="FormMenu">
+<fieldset>
+    <legend>Nome</legend>
+        <label id="InputNome"></label>
+             <input type="text" id="InputNome" name="InputNome" aria-required="true" required="required" style=" box-shadow: 0 0 0 0; border: 0 none; outline: 0;">
+</fieldset>
+</div>
+
+<div id="FormEmail">
+<fieldset>
+    <legend>E-mail</legend>
+        <label id="InputEmail"></label>
+            <input type="email" id="InputEmail" aria-required="true" required="required" name="InputEmail" style=" box-shadow: 0 0 0 0; border: 0 none; outline: 0;  ">
+</fieldset>
+</div>
+
+<div id="FormCEmail">
+<fieldset>
+    <legend>Confirmação de E-mail</legend>
+        <label id="InputConfirmaEmail"></label>
+            <input type="email" id="InputConfirmaEmail" aria-required="true" required="required" name="InputConfirmaEmail" style=" box-shadow: 0 0 0 0; border: 0 none; outline: 0;  ">
+</fieldset>
+</div>
+
+<div id="FormSenha">
+<fieldset>
+    <legend>Senha</legend>
+        <label id="InputSenha"></label>
+            <input type="password" id="InputSenha" name="InputSenha" aria-required="true" required="required" style=" box-shadow: 0 0 0 0; border: 0 none; outline: 0;  ">
+</fieldset>
+</div>
+
+<div id="FormCsenha">
+<fieldset>
+    <legend>Confirmação de Senha</legend>
+        <label id="InputSenha"></label>
+            <input type="password" id="InputConfirmaSenha" name="InputConfirmaSenha" aria-required="true" required="required" style=" box-shadow: 0 0 0 0; border: 0 none; outline: 0; ">
+</fieldset>
+</div>
+
+
+<section id="corpo2">
+    <div id="FormMen">
+    <fieldset>
+    <legend>Mensagem</legend>
+    <label id="InputMensagem"></label>
+    <textarea id="comment" style="outline: none;" name="comment" cols="55" rows="15" aria-required="true" required="required"></textarea>
+    </fieldset>
+    <button style="top:-545px; left: 568px;">Enviar</button>
+    <button style="top:-50px; left: 492px; border-bottom-left-radius: 0px; border-bottom-right-radius: 10px; border-top-right-radius: 0px;border-top-left-radius: 25px;">Enviar</button>
+    </div>
+
+    </div>
+    </fieldset>
+    </form>
+
+    <div id="imgformu2">
+        <img src="_imagens/ocu.png" style="border: 4.5px solid #4AD295; height: 290px; width: 320px; border-radius: 80px; box-shadow: 0px 0px 30px #4AD295; top: 320px; display: block;    background: rgba( 255, 255, 255, 0.6 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );"> 
+    </div>
+</section>
+<div id="A">
+    <h1 style="top: -950px; left:20px;">Deixe a sua mensagem e nos ajude a melhorar!</h1>
+    <h2 style="top: -960px; left:20px;">Faremos o possivel para te ajudar! </h2>
+
+
+</div>
+<footer id="Rodape2">
+    <p>Copyright 2021 - by Caio Garcia</p><br>
+    <p><a href="https://www.facebook.com/etecdeitaquaquecetuba" target="_blank;" style="text-decoration: none; text-align: center; position: relative; color: black;top: -49px;">Facebook |</a><a href="https://www.instagram.com/etecdeitaqua/" target="_blank;" style="text-decoration: none; text-align: center; position: relative; color:black; top: -49px">| instagram</a></p>
+</footer>
+</div>
+</div>
+
+    </body>
+        </html>
